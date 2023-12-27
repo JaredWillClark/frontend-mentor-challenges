@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
 
-
-
+/* page styles */
 :root {
     /* primary color */
     --color-primary: hsl(47, 88%, 63%);
@@ -14,10 +13,11 @@
     /* font */
     --font-size-small: 16px;
 
-    --font-weight-bold: 600;
-    --font-weight-bold-extra: 800;
+    --font-weight-regular: 600;
+    --font-weight-bold: 800;
+    --font-weight-bold-extra: 1000;
 
-    --font-family-main: 'Figtree', san-serif;
+    --font-family-main: 'Figtree', sans-serif;
 
     /* images */
     --image-mobile-width: 80%; 
@@ -33,9 +33,9 @@ html {
 /* block styles */
 .card {
     background-color: var(--color-white);
+    font-family: var(--font-family-main);
     width: 20rem;
     margin: 5rem 5rem 5rem 5rem;
-    /* border: 1rem 1rem; */
     padding: 2rem 3rem 2rem 2rem;
 
 
@@ -60,14 +60,23 @@ html {
     outline: 1px solid var(--color-black);
 }
 
-/* .card__image {
-        
-} */
+.card__image--bevel {
+    border-radius: 5%;
+}
 
 /* text styles */
 .card__learning {
     font-size: var(--font-size-small);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold-extra);
+    
+}
+
+/* .card__learning--bold { */
+/*  */
+/* } */
+
+.card__learning--background-yellow {
+    background-color: var(--color-primary);
 }
 
 .card__date-format {
@@ -80,7 +89,7 @@ html {
     font-weight: var(--font-weight-bold-extra);
 }
 
-.card__description {
+.card__description--grey {
     font-size: var(--font-size-small);
     color: var(--color-grey);
 
