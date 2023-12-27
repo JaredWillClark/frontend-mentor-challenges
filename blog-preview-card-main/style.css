@@ -1,5 +1,6 @@
 @import url(https://fonts.google.com/specimen/Figtree);
 
+
 :root {
     /* primary color */
     --color-primary: hsl(47, 88%, 63%);
@@ -23,9 +24,11 @@
 
 }
 
-.background__body--color {
+html {
     background-color: var(--color-primary);
 }
+
+
 
 .card {
     background-color: var(--color-white);
