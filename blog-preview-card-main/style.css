@@ -89,6 +89,11 @@ html {
     font-weight: var(--font-weight-bold-extra);
 }
 
+
+.card__description--line-height {
+    line-height: 150%;
+}
+
 .card__description--grey {
     font-size: var(--font-size-small);
     color: var(--color-grey);
