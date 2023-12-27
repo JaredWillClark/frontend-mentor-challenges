@@ -79,6 +79,13 @@ html {
     background-color: var(--color-primary);
 }
 
+.card__learning--dimensions {
+    width: 4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10%;
+    margin-top: 1.5rem;
+}
+
 .card__date-format {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-bold);
@@ -103,4 +110,12 @@ html {
 .card__author {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-bold);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
 }
