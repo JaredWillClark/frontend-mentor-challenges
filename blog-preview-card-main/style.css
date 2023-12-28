@@ -56,6 +56,11 @@ html {
     outline: 1px solid var(--color-black);
 }
 
+.card__image--dimensions {
+    width: 100%;
+    height: auto;
+}
+
 .card__image--bevel {
     border-radius: 5%;
 }
@@ -124,4 +129,35 @@ html {
 
 .attribution a {
     color: hsl(228, 45%, 44%); 
+}
+
+/* media queries for displays  */
+
+@media only screen and (max-width: 450px) {
+    :root {
+        --font-size-small: 14px; /* Smaller font size for mobile */
+        --image-mobile-width: 80vw; /* Full width for images on mobile */
+    }
+
+    .card {
+        width: 90%; /* Adjust width for mobile */
+        margin: 1rem; /* Smaller margins */
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .card__image {
+        width: 80vw;
+        margin: 0;
+    }
+
+    .card__learning--dimensions {
+        margin-top: 0.5rem;
+
+    }
+
+    .card__author--img {
+        width: 20%; /* Adjust image size */
+    }
+
+    
 }
