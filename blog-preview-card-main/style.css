@@ -26,6 +26,8 @@
 
 html {
     background-color: var(--color-primary);
+
+
 }
 
 
@@ -34,7 +36,7 @@ html {
     background-color: var(--color-white);
     font-family: var(--font-family-main);
     width: 20rem;
-    margin: 5rem 5rem 5rem 5rem;
+    margin: 10rem auto;
     padding: 2rem 3rem 2rem 2rem;
 }
 
@@ -140,14 +142,19 @@ html {
     }
 
     .card {
-        width: 90%; /* Adjust width for mobile */
-        margin: 1rem; /* Smaller margins */
+        width: 80%; /* Adjust width for mobile */
+        margin: 10rem auto;; /* Smaller margins */
         padding: 1rem; /* Adjust padding */
     }
 
     .card__image {
-        width: 80vw;
+        width: 75vw;
         margin: 0;
+        
+    }
+
+    .card__image--bevel {
+        border-radius: 20%;
     }
 
     .card__learning--dimensions {
