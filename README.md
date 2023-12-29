@@ -2,4 +2,4 @@
 
 Challenges from FrontendMentor.io
 
-[blog-preview-card-main](blog-preview-card-main/index.html)
+[blog-preview-card-main](blog-preview-card-main)
